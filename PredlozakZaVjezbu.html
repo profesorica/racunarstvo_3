@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja digitalna stranica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <nav class="nav">
+        <div class="nav-title">Moja digitalna stranica</div>
+        <div class="nav-links">
+            <a href="#o-meni">O meni</a>
+            <a href="#mreze">Mreže</a>
+            <a href="#preporuke">Preporuke</a>
+            <a href="#kontakt">Kontakt</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-main">
+            <h1>Marina – digitalni kutak</h1>
+            <p>Maturantica, ljubiteljica glazbe, serija i kave. U slobodno vrijeme učim programirati i radim svoje male web projekte.</p>
+
+            <div class="hero-tags">
+                <span class="tag">🎧 glazba & podcasti</span>
+                <span class="tag">💻 web dizajn</span>
+                <span class="tag">📚 gimnazijalka</span>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#preporuke" class="btn-primary">Pogledaj moje preporuke</a>
+                <a href="#kontakt" class="btn-ghost">Pošalji poruku</a>
+            </div>
+        </div>
+
+        <div class="hero-profile">
+            <div class="avatar-ring">
+                <div class="avatar-inner"></div>
+            </div>
+            <p>@marina.digital</p>
+            <p class="hero-hint">Ovo je primjer stranice koju i ti možeš izraditi korak po korak. 🌟</p>
+        </div>
+    </section>
+
+    <section id="o-meni">
+        <h2>O meni</h2>
+        <p class="section-intro">Mali “about me” blok koji ukratko opisuje tko sam, što volim i čime se bavim.</p>
+
+        <div class="about-grid">
+            <div class="about-box">
+                <p>Bok! Ja sam Marina, učenica 3. razreda gimnazije. Volim dizajn, modernu tehnologiju i
+                    eksperimentiranje s HTML-om, CSS-om i malo JavaScripta.</p>
+            </div>
+
+            <ul class="about-list">
+                <li><span class="about-bullet">✔</span>Učim: HTML, CSS, osnove Pythona i Jave.</li>
+                <li><span class="about-bullet">✔</span>Slobodno vrijeme: glazba, serije, gaming, kava s ekipom.</li>
+                <li><span class="about-bullet">✔</span>Cilj: napraviti svoj mali online portfolio prije mature.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="mreze">
+        <h2>Moje mreže</h2>
+        <p class="section-intro">Mala “link in bio” sekcija – brzi linkovi na profile i sadržaj koji najčešće koristim.</p>
+
+        <ul class="link-list">
+            <li>
+                <a href="#">
+                    <div class="link-main">
+                        <span class="link-icon">📸</span>
+                        <div>
+                            <div class="link-label">Instagram</div>
+                            <div class="link-note">@marina.digital</div>
+                        </div>
+                    </div>
+                    <span class="link-note">fotke & storyji</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="link-main">
+                        <span class="link-icon">🎵</span>
+                        <div>
+                            <div class="link-label">Spotify playlist</div>
+                            <div class="link-note">Focus & Chill</div>
+                        </div>
+                    </div>
+                    <span class="link-note">slušaj</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="link-main">
+                        <span class="link-icon">▶</span>
+                        <div>
+                            <div class="link-label">YouTube</div>
+                            <div class="link-note">učim front-end</div>
+                        </div>
+                    </div>
+                    <span class="link-note">video tutorijali</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="preporuke">
+        <h2>Moje preporuke</h2>
+        <p class="section-intro">Glazba, serije i igre koje bih preporučila svakome tko voli opuštanje nakon škole.</p>
+
+        <div class="cards">
+
+            <article class="card">
+                <div class="card-title">🎧 Pjesma / playlist <span class="card-tag">glazba</span></div>
+                <p class="card-desc">Lo-fi hip hop za učenje ili pisanje zadaće – bez teksta, savršeno za koncentraciju.</p>
+                <a href="#" class="card-link">🎵 YouTube primjer</a>
+            </article>
+
+            <article class="card">
+                <div class="card-title">🎬 Serija <span class="card-tag">film & TV</span></div>
+                <p class="card-desc">Stranger Things – kombinacija 80-ih, misterija i odlične glazbe.</p>
+                <a href="#" class="card-link">Netflix</a>
+            </article>
+
+            <article class="card">
+                <div class="card-title">🎮 Igra <span class="card-tag">gaming</span></div>
+                <p class="card-desc">Minecraft – kreativnost bez granica, od gradnje do preživljavanja.</p>
+                <a href="#" class="card-link">Službena stranica</a>
+            </article>
+
+            <article class="card">
+                <div class="card-title">📱 Aplikacija <span class="card-tag">produktivnost</span></div>
+                <p class="card-desc">Digitalni planer za bilješke i projekte.</p>
+                <a href="#" class="card-link">Notion / Keep</a>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p class="section-intro">Forma ne šalje podatke, ali izgleda realistično.</p>
+
+        <div class="contact-wrapper">
+            <form>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Ime i prezime</label>
+                        <input type="text" placeholder="Tvoje ime">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="ime.prezime@example.com">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Poruka</label>
+                    <textarea placeholder="Tvoja poruka..."></textarea>
+                </div>
+
+                <button class="btn-send">Pošalji (demo)</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Moja digitalna stranica – primjer projekta
+    </footer>
+
+</div>
+
+</body>
+</html>
+
